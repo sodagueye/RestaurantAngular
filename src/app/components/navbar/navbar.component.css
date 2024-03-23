@@ -1,0 +1,29 @@
+
+/* #E7272D */
+
+.baiss{
+    background-color: white;
+
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.groupeNav{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    color: aliceblue;
+
+}  
+.nav-link{
+    color: black;
+}
+.login{
+    color: #E7272D;
+} 
+.nav-link:hover{
+    color: #E7272D;
+}

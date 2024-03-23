@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body class="body">
+  <form class="d-flex justify-content-center align-items-center m-auto formule" #loginForm=ngForm (ngSubmit)="onSubmit()">
+     <div class="alert alert-danger" [hidden]="!error">
+    {{error}}
+    </div> 
+    <img src="../assets/Image/logo.png" alt="">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email </label>
+      <input type="email" class="form-control taille" [(ngModel)]="form.email" required>
+      
+    </div>
+    
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">mot de pass</label>
+      <input type="password" class="form-control taille" [(ngModel)]="form.password" required >
+    </div>
+    <div class="mb-3 form-check float-right">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label " for="exampleCheck1">Se souvenir de moi</label>
+    </div>
+   
+    <div class="">
+      <a href="#" routerLink="/signup" class="m-2 compte float-right">Tu n as pas encore de compte </a>
+    <button type="button" class="btn  m-2 deco" [disabled]="!loginForm.valid"> Se connecter </button></div>
+    <!-- <a href="" class="deco"  >Se connecter</a> -->
+  </form>
+  <!-- section footer -->
+  <footer class="container-fluid footer pt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="../assets/Image/logo1.png" alt="" class="logo ">
+        </div>
+        <div class="col-md-4">
+            <p class="blan text-center">Appelez nous pour reserver : 33 459 21 09</p>
+            <p class=" blan text-center">Email : terrangafood@gmail.com</p>
+            <div class="d-flex  justify-content-center align-items-center ">
+                <i class="fa-brands fa-facebook m-2 blan"></i>
+                <i class="fa-brands fa-instagram m-2 blan"></i>
+                <i class="fa-brands fa-twitter m-2 blan"></i>
+
+            </div>
+            <p class="text-center droits">Touts droits reservés | BY Terranga Food</p>
+        </div>
+
+      </div>
+
+</footer>
+
+  
+</body>
+</html>

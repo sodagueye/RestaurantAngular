@@ -1,0 +1,29 @@
+body{
+    background-color:rgba(241, 241, 241, 0.921); 
+}
+.background{
+    background-image: url('../assets/Image/bgres.png');
+}
+input{
+    width: 300px;
+    border-color:#E7272D ;
+}
+
+.footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+.blan{
+    color: white;
+}
+
+.droits{
+    color: rgb(145, 145, 145);
+}
+.logo{
+    
+        width: 100px;
+        height: 80px;
+   
+}

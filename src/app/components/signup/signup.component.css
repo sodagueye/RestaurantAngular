@@ -1,0 +1,55 @@
+
+body{
+    background-color:rgba(241, 241, 241, 0.921); 
+}
+.deco{
+    text-decoration: none;
+    color: white;
+    background-color: #E7272D;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+
+}
+.deco:hover{
+    background-color: #E7272D;
+}
+.taille{
+    width: 400px;
+}
+.formule{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* / align-items: center; */ 
+    padding-top: 10px;
+    margin: auto; 
+}
+/* css footer */
+.footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+.blan{
+    color: white;
+}
+
+.droits{
+    color: rgb(145, 145, 145);
+}
+.logo{
+    
+        width: 100px;
+        height: 80px;
+   
+}
+.compte{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+
+}
+.btn{
+    border: none;
+}
