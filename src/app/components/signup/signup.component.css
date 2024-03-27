@@ -1,7 +1,5 @@
 
-body{
-    background-color:rgba(241, 241, 241, 0.921); 
-}
+
 .deco{
     text-decoration: none;
     color: white;
@@ -18,17 +16,16 @@ body{
     width: 400px;
 }
 .formule{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* / align-items: center; */ 
-    padding-top: 10px;
-    margin: auto; 
+    background-color: white; 
+    width: 500px;
+   display: flex;
+   margin:auto !important;
+   flex-direction: column;
+  
 }
 /* css footer */
 .footer{
-    background-color: black;
+    background-color: black; 
     height: 200px;
     width: 100%;
 }

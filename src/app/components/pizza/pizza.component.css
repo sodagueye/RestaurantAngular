@@ -1,0 +1,56 @@
+
+/* #E7272D */
+.btn-primary{
+    background-color: #E7272D;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #E7272D;
+}
+
+
+.bordures{
+    border: 1px solid #E7272D;
+    width: 100px;
+    align-items: center;
+    margin: auto;
+   
+}
+
+.Momcard{
+    background-color: white;
+    width: 200px;
+}
+ .imgcard{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+   
+    align-items: center;
+   
+    
+} 
+.textcart {
+    margin-top: -30px;
+}
+/* css footer */
+.footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+.blan{
+    color: white;
+}
+
+.droits{
+    color: rgb(145, 145, 145);
+}
+.logo{
+    
+        width: 100px;
+        height: 80px;
+   
+}

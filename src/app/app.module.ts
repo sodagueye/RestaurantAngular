@@ -9,11 +9,18 @@ import { SignupComponent } from './components/signup/signup.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { RequestResetComponent } from './components/password/request-reset/request-reset.component';
 import { ResponseResetComponent } from './components/password/response-reset/response-reset.component';
-import { AccueilComponent } from './components/accueil/accueil.component';
+ import { AccueilComponent } from './components/accueil/accueil.component';
 import { ReservationComponent } from './components/reservation/reservation.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ContactComponent } from './components/contact/contact.component';
- import {HttpClientModule}from '@angular/common/http'
+ import {HttpClientModule}from '@angular/common/http';
+import { PizzaComponent } from './components/pizza/pizza.component';
+import { BaguettesComponent } from './components/baguettes/baguettes.component';
+import { TacosComponent } from './components/tacos/tacos.component';
+import { ChinesseComponent } from './components/chinesse/chinesse.component';
+import { JusnaturelComponent } from './components/jusnaturel/jusnaturel.component';
+import { PlatsenegalaisComponent } from './components/platsenegalais/platsenegalais.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,10 +30,17 @@ import { ContactComponent } from './components/contact/contact.component';
     ProfileComponent,
     RequestResetComponent,
     ResponseResetComponent,
-    AccueilComponent,
+     AccueilComponent,
     ReservationComponent,
     MenuComponent,
-    ContactComponent
+    ContactComponent,
+    PizzaComponent,
+    BaguettesComponent,
+    TacosComponent,
+    ChinesseComponent,
+    JusnaturelComponent,
+    PlatsenegalaisComponent,
+ 
   ],
   imports: [
     BrowserModule,

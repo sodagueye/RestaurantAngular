@@ -1,9 +1,13 @@
-body{
+/* body{
     background-color:rgba(241, 241, 241, 0.921); 
-}
-.background{
-    background-image: url('../assets/Image/bgres.png');
-}
+} */
+ .reservation{
+     background-image: url('../assets/Image/bgres.png'); 
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+}  
 input{
     width: 300px;
     border-color:#E7272D ;

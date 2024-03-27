@@ -4,10 +4,16 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { RequestResetComponent } from './components/password/request-reset/request-reset.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { AccueilComponent } from './components/accueil/accueil.component';
+ import { AccueilComponent } from './components/accueil/accueil.component';
 import { ReservationComponent } from './components/reservation/reservation.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { PizzaComponent } from './components/pizza/pizza.component';
+import { BaguettesComponent } from './components/baguettes/baguettes.component';
+import { TacosComponent } from './components/tacos/tacos.component';
+import { ChinesseComponent } from './components/chinesse/chinesse.component';
+import { JusnaturelComponent } from './components/jusnaturel/jusnaturel.component';
+import { PlatsenegalaisComponent } from './components/platsenegalais/platsenegalais.component';
 
 const routes: Routes = [
   {
@@ -45,7 +51,32 @@ const routes: Routes = [
   {
     path:'contact',
     component:ContactComponent
-  }
+  },
+  {
+    path:'pizza',
+    component:PizzaComponent
+  },
+  {
+    path:'baguettes',
+    component:BaguettesComponent
+  },
+  {
+    path:'tacos',
+    component:TacosComponent
+  },
+  {
+    path:'chinesse',
+    component:ChinesseComponent
+  },
+  {
+    path:'jusnaturel',
+    component:JusnaturelComponent
+  },
+  {
+    path:'platsenegalais',
+    component:PlatsenegalaisComponent
+  },
+  // jusnaturel
 
   // path: 'login/signup', component: SignupComponent },
 ];
